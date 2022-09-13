@@ -51,18 +51,18 @@ print('d) Steven Grant Rogers')
 
 respuesta_2 = input ('\n Tu respuesta: ')
 while respuesta_2 not in ('a', 'b', 'c', 'd'):
-      respuesta_2 = input('Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: ')
+      respuesta_2 = input(RED+'Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: '+RESET)
 for numero_carga in range(3, -1, -1):
     print(f'\r{numero_carga}', end = '')
     time.sleep(1)  
 if respuesta_2 == 'b':
- print(RED+'INCORRECTO', nombre, 'su alias de Anthony Edward Stark es Iron man'+RESET)
+ print(RED+'INCORRECTO', nombre, 'su alias de Anthony Edward Stark es Iron man.'+RESET)
  puntaje = puntaje - 1
 elif respuesta_2 == 'c':
- print(RED+'INCORRECTO', nombre, 'su alias de James Buchanan Barnes es El soldado del invierno'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'su alias de James Buchanan Barnes es El soldado del invierno.'+RESET) 
  puntaje = puntaje - 1
 elif respuesta_2 == 'd':
- print(RED+'INCORRECTO', nombre, 'su alias de Steven Grant Rogers es Capitan america'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'su alias de Steven Grant Rogers es Capitan america.'+RESET) 
  puntaje = puntaje - 1
 else:
  puntaje += 10 
@@ -77,18 +77,18 @@ print('d) Warpath')
 
 respuesta_3 = input ('\n Tu respuesta: ')
 while respuesta_3 not in ('a', 'b', 'c', 'd'):
-      respuesta_3 = input('Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: ')
+      respuesta_3 = input(RED+'Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: '+RESET)
 for numero_carga in range(3, -1, -1):
     print(f'\r{numero_carga}', end = '')
     time.sleep(1)  
 if respuesta_3 == 'b':
- print(RED+'INCORRECTO', nombre, 'Cannonball es un hombre cohete'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Cannonball es un hombre cohete.'+RESET) 
  puntaje = puntaje - 1
 elif respuesta_3 == 'c':
- print(RED+'INCORRECTO', nombre, 'Havok emana energia de su cuerpo'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Havok emana energia de su cuerpo.'+RESET) 
  puntaje = puntaje - 1
 elif respuesta_3 == 'd':
- print(RED+'INCORRECTO', nombre, 'Warpath tiene fuerza sobre humana'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Warpath tiene fuerza sobre humana.'+RESET) 
  puntaje = puntaje - 1
 else:
  puntaje += 10 
@@ -103,18 +103,18 @@ print('d) Crystal')
 
 respuesta_4 = input ('\n Tu respuesta: ')
 while respuesta_4 not in ('a', 'b', 'c', 'd'):
-      respuesta_4 = input('Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: ')
+      respuesta_4 = input(RED+'Debes responder a, b, c, o d. Ingresa nuevamente tu respuesta: '+RESET)
 for numero_carga in range(3, -1, -1):
     print(f'\r{numero_carga}', end = '')
     time.sleep(1)  
 if respuesta_4 == 'a':
- print(RED+'INCORRECTO', nombre, 'Spiderman tuvo contacto con la radiacion, asi obtuvo sus poderes'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Spiderman tuvo contacto con la radiacion, asi obtuvo sus poderes.'+RESET) 
  puntaje = puntaje - 1
 elif respuesta_4 == 'b':
- print(RED+'INCORRECTO', nombre, 'Night thrasher es un humano con conocimientos de combate'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Night thrasher es un humano con conocimientos de combate.'+RESET) 
  puntaje = puntaje - 1
 elif respuesta_4 == 'd':
- print(RED+'INCORRECTO', nombre, 'Crystal es un inhumano'+RESET) 
+ print(RED+'INCORRECTO', nombre, 'Crystal es un inhumano.'+RESET) 
  puntaje = puntaje - 1
 else:
  puntaje += 10 
